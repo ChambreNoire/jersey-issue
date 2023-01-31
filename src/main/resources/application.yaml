@@ -1,0 +1,11 @@
+sca:
+  scar:
+    security:
+      jwtSecret: secretsfdfds45ds4f123ds4f5sd6fsdf4sd564156
+      jwtExpiration: 360000
+spring:
+  jersey:
+    application-path: /
+    servlet:
+      load-on-startup: 1
+    type: filter
